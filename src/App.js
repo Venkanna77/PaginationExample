@@ -29,7 +29,7 @@ export default function App() {
     <div className="container">
       <div className="jumbotron">
         <h1 className="text-primary font-weight-bold">Pagination</h1>
-        <p>Using reactjs and bootstrap...</p>
+        <p>Pagination reactjs and bootstrap...</p>
       </div>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination
